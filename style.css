@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    font-size: 29pt;
+    background-color: #e69e19;
+}
+
+section.fundo {    
+    color: white;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+div.meio .calculadora {    
+    background-color: #4f4f4f;
+    padding: 15pt;
+    border-radius: 15pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        
+
+}
+table {
+    padding-top: 20px ;
+}
+
+#res {
+    width: 222px;
+    height: 40px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 36px;
+    text-align: right;
+    padding: 0 8px;
+    font-weight:  bold;
+    border-style: inset;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 24pt;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    color: white;
+    border: none;
+    margin: 3px;
+}
+
+button:hover {
+    background-color: rgb(133, 122, 122);
+}
+
+#baixo {
+    text-align: center;
+    padding: 50px;
+}
